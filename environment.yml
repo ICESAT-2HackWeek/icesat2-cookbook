@@ -1,4 +1,4 @@
-name: cookbook-dev
+name: icesat2-cookbook-dev
 channels:
   - conda-forge
 dependencies:
