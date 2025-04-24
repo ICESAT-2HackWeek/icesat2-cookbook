@@ -1,20 +1,31 @@
-<img src="thumbnail.png" alt="thumbnail" width="300"/>
+<img src="https://www.nasa.gov/wp-content/uploads/2023/03/icesat2-logo_0.jpg" 
+alt="thumbnail" width="300"/>
 
-# (Replace_with_your_title) Cookbook
+# ICESat-2 Cookbook
 
 [![nightly-build](https://github.com/ICESAT-2HackWeek/icesat2-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ICESAT-2HackWeek/icesat2-cookbook/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ICESAT-2HackWeek/icesat2-cookbook/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/962073412.svg)](https://zenodo.org/badge/latestdoi/962073412)
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook is a compilation of tutorials developed from 2019 
+to present as part of the NASA / UW eScience hackweek program. The purpose of
+the tutorials is to help people with data access and to demonstrate a variety
+of disciplinary use cases.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+The ICESat-2 mission provides valuable data for measuring changes in glaciers, 
+ice sheets, sea ice, clouds and land surface systems. There are numerous data
+products and methods for accessing and analyzing data. The goal of these 
+tutorials is to streamline data access, reduce duplication of effort and 
+build an open science community around ICESat-2 algorithms and software.
 
 ## Authors
 
-[First Author](@first-author), [Second Author](@second-author), etc. _Acknowledge primary content authors here_
+[Ben Smith](@smithb), 
+[Michalea King](@michaleaking), 
+[Tyler Sutterley](@tsutterley),
+[Anthony Arendt](@aaarendt)
 
 ### Contributors
 
@@ -24,15 +35,26 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This cookbook is broken up into two main sections - "Foundations" 
+and "Example Workflows."
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### Section 1: Foundations
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+* Mission Overview
+* Data Access
+* Filtering
+* Geospatial Transforms
+* Integration
+* Cloud Computing
+* Machine Learning
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Section 2: Example Workflows for Specific Disciplines
 
-(Add content for this section, e.g., "Example workflows include ... ")
+* Land Ice
+* Sea Ice
+* Inland Hydrology
+* Bathymetry
+* Snowdepth
 
 ## Running the Notebooks
 
@@ -62,24 +84,24 @@ executable book chapter.
 
 ### Running on Your Own Machine
 
-If you are interested in running this material locally on your computer, you will need to follow this workflow:
+If you are interested in running this material locally on your computer, 
+you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
 
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythia/icesat2-cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/ProjectPythia/icesat2-cookbook.git
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `icesat2-cookbook` directory
    ```bash
    cd cookbook-example
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate icesat2-cookbook
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash

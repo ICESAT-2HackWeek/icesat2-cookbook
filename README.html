@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>(Replace_with_your_title) Cookbook &#8212; Project Pythia Cookbook Template</title>
+    <title>ICESat-2 Cookbook &#8212; Project Pythia Cookbook Template</title>
   
   
   
@@ -71,8 +71,6 @@
                 gtag('config', 'G-T52X8HNYE8');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'README';</script>
     <link rel="icon" href="_static/favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
@@ -363,7 +361,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    (Replace_with_your_title) Cookbook
+                    ICESat-2 Cookbook
                 </a>
             </li>
         </ul>
@@ -371,9 +369,23 @@
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="notebooks/how-to-cite.html">How to Cite This Cookbook</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Foundations</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="notebooks/notebook-template.html">Project Pythia Notebook Template</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/mission-overview.html">ICESat-2 Mission Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/data-access.html">Data Access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/filtering.html">Data Filtering</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/geospatial-transforms.html">Geospatial Transforms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/data-integration.html">Data Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/cloud-computing.html">Cloud Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/machine-learning.html">Machine Learning</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Example Workflows</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="notebooks/land-ice.html">Land Ice Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/sea-ice.html">Sea Ice Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/inland-hydrology.html">Inland Hydrology Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/bathymetry.html">Bathymetry Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/snowdepth.html">Snowdepth Applications</a></li>
 </ul>
 
     </div>
@@ -403,21 +415,30 @@
 <div id="searchbox"></div>
                   <article class="bd-article">
                     
-  <a class="reference internal image-reference" href="_images/thumbnail.png"><img alt="thumbnail" src="_images/thumbnail.png" style="width: 300px;" />
-</a>
-<section class="tex2jax_ignore mathjax_ignore" id="replace-with-your-title-cookbook">
-<h1>(Replace_with_your_title) Cookbook<a class="headerlink" href="#replace-with-your-title-cookbook" title="Link to this heading"><i class="fas fa-link"></i></a></h1>
+  <p><a class="reference internal" href="https://www.nasa.gov/wp-content/uploads/2023/03/icesat2-logo_0.jpg"><img alt="thumbnail" src="https://www.nasa.gov/wp-content/uploads/2023/03/icesat2-logo_0.jpg" style="width: 300px;" /></a></p>
+<section class="tex2jax_ignore mathjax_ignore" id="icesat-2-cookbook">
+<h1>ICESat-2 Cookbook<a class="headerlink" href="#icesat-2-cookbook" title="Link to this heading"><i class="fas fa-link"></i></a></h1>
 <p><a class="reference external" href="https://github.com/ICESAT-2HackWeek/icesat2-cookbook/actions/workflows/nightly-build.yaml"><img alt="nightly-build" src="https://github.com/ICESAT-2HackWeek/icesat2-cookbook/actions/workflows/nightly-build.yaml/badge.svg" /></a>
 <a class="reference external" href="https://binder.projectpythia.org/v2/gh/ICESAT-2HackWeek/icesat2-cookbook/main?labpath=notebooks"><img alt="Binder" src="https://binder.projectpythia.org/badge_logo.svg" /></a>
 <a class="reference external" href="https://zenodo.org/badge/latestdoi/962073412"><img alt="DOI" src="https://zenodo.org/badge/962073412.svg" /></a></p>
-<p>This Project Pythia Cookbook covers … (replace <code class="docutils literal notranslate"><span class="pre">...</span></code> with the main subject of your cookbook … e.g., <em>working with radar data in Python</em>)</p>
+<p>This Project Pythia Cookbook is a compilation of tutorials developed from 2019
+to present as part of the NASA / UW eScience hackweek program. The purpose of
+the tutorials is to help people with data access and to demonstrate a variety
+of disciplinary use cases.</p>
 <section id="motivation">
 <h2>Motivation<a class="headerlink" href="#motivation" title="Link to this heading"><i class="fas fa-link"></i></a></h2>
-<p>(Add a few sentences stating why this cookbook will be useful. What skills will you, “the chef”, gain once you have reached the end of the cookbook?)</p>
+<p>The ICESat-2 mission provides valuable data for measuring changes in glaciers,
+ice sheets, sea ice, clouds and land surface systems. There are numerous data
+products and methods for accessing and analyzing data. The goal of these
+tutorials is to streamline data access, reduce duplication of effort and
+build an open science community around ICESat-2 algorithms and software.</p>
 </section>
 <section id="authors">
 <h2>Authors<a class="headerlink" href="#authors" title="Link to this heading"><i class="fas fa-link"></i></a></h2>
-<p><a class="reference internal" href="#&#64;first-author"><span class="xref myst">First Author</span></a>, <a class="reference internal" href="#&#64;second-author"><span class="xref myst">Second Author</span></a>, etc. <em>Acknowledge primary content authors here</em></p>
+<p><a class="reference internal" href="#&#64;smithb"><span class="xref myst">Ben Smith</span></a>,
+<a class="reference internal" href="#&#64;michaleaking"><span class="xref myst">Michalea King</span></a>,
+<a class="reference internal" href="#&#64;tsutterley"><span class="xref myst">Tyler Sutterley</span></a>,
+<a class="reference internal" href="#&#64;aaarendt"><span class="xref myst">Anthony Arendt</span></a></p>
 <section id="contributors">
 <h3>Contributors<a class="headerlink" href="#contributors" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
 <a href="https://github.com/ICESAT-2HackWeek/icesat2-cookbook/graphs/contributors">
@@ -427,14 +448,29 @@
 </section>
 <section id="structure">
 <h2>Structure<a class="headerlink" href="#structure" title="Link to this heading"><i class="fas fa-link"></i></a></h2>
-<p>(State one or more sections that will comprise the notebook. E.g., <em>This cookbook is broken up into two main sections - “Foundations” and “Example Workflows.”</em> Then, describe each section below.)</p>
-<section id="section-1-replace-with-the-title-of-this-section-e-g-foundations">
-<h3>Section 1 ( Replace with the title of this section, e.g. “Foundations” )<a class="headerlink" href="#section-1-replace-with-the-title-of-this-section-e-g-foundations" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
-<p>(Add content for this section, e.g., “The foundational content includes … “)</p>
+<p>This cookbook is broken up into two main sections - “Foundations”
+and “Example Workflows.”</p>
+<section id="section-1-foundations">
+<h3>Section 1: Foundations<a class="headerlink" href="#section-1-foundations" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
+<ul class="simple">
+<li><p>Mission Overview</p></li>
+<li><p>Data Access</p></li>
+<li><p>Filtering</p></li>
+<li><p>Geospatial Transforms</p></li>
+<li><p>Integration</p></li>
+<li><p>Cloud Computing</p></li>
+<li><p>Machine Learning</p></li>
+</ul>
 </section>
-<section id="section-2-replace-with-the-title-of-this-section-e-g-example-workflows">
-<h3>Section 2 ( Replace with the title of this section, e.g. “Example workflows” )<a class="headerlink" href="#section-2-replace-with-the-title-of-this-section-e-g-example-workflows" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
-<p>(Add content for this section, e.g., “Example workflows include … “)</p>
+<section id="section-2-example-workflows-for-specific-disciplines">
+<h3>Section 2: Example Workflows for Specific Disciplines<a class="headerlink" href="#section-2-example-workflows-for-specific-disciplines" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
+<ul class="simple">
+<li><p>Land Ice</p></li>
+<li><p>Sea Ice</p></li>
+<li><p>Inland Hydrology</p></li>
+<li><p>Bathymetry</p></li>
+<li><p>Snowdepth</p></li>
+</ul>
 </section>
 </section>
 <section id="running-the-notebooks">
@@ -462,22 +498,22 @@ executable book chapter.</p>
 </section>
 <section id="running-on-your-own-machine">
 <h3>Running on Your Own Machine<a class="headerlink" href="#running-on-your-own-machine" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
-<p>If you are interested in running this material locally on your computer, you will need to follow this workflow:</p>
-<p>(Replace “cookbook-example” with the title of your cookbooks)</p>
+<p>If you are interested in running this material locally on your computer,
+you will need to follow this workflow:</p>
 <ol class="arabic">
-<li><p>Clone the <code class="docutils literal notranslate"><span class="pre">https://github.com/ProjectPythia/cookbook-example</span></code> repository:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/ProjectPythia/cookbook-example.git
+<li><p>Clone the <code class="docutils literal notranslate"><span class="pre">https://github.com/ProjectPythia/icesat2-cookbook</span></code> repository:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/ProjectPythia/icesat2-cookbook.git
 </pre></div>
 </div>
 </li>
-<li><p>Move into the <code class="docutils literal notranslate"><span class="pre">cookbook-example</span></code> directory</p>
+<li><p>Move into the <code class="docutils literal notranslate"><span class="pre">icesat2-cookbook</span></code> directory</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>cookbook-example
 </pre></div>
 </div>
 </li>
 <li><p>Create and activate your conda environment from the <code class="docutils literal notranslate"><span class="pre">environment.yml</span></code> file</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>env<span class="w"> </span>create<span class="w"> </span>-f<span class="w"> </span>environment.yml
-conda<span class="w"> </span>activate<span class="w"> </span>cookbook-example
+conda<span class="w"> </span>activate<span class="w"> </span>icesat2-cookbook
 </pre></div>
 </div>
 </li>
@@ -490,6 +526,8 @@ jupyter<span class="w"> </span>lab
 </ol>
 </section>
 </section>
+<div class="toctree-wrapper compound">
+</div>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
@@ -558,8 +596,8 @@ jupyter<span class="w"> </span>lab
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure">Structure</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#section-1-replace-with-the-title-of-this-section-e-g-foundations">Section 1 ( Replace with the title of this section, e.g. “Foundations” )</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#section-2-replace-with-the-title-of-this-section-e-g-example-workflows">Section 2 ( Replace with the title of this section, e.g. “Example workflows” )</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#section-1-foundations">Section 1: Foundations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#section-2-example-workflows-for-specific-disciplines">Section 2: Example Workflows for Specific Disciplines</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-the-notebooks">Running the Notebooks</a><ul class="nav section-nav flex-column">
