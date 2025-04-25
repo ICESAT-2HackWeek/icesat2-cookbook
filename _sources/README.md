@@ -27,6 +27,8 @@ build an open science community around ICESat-2 algorithms and software.
 [Tyler Sutterley](@tsutterley),
 [Anthony Arendt](@aaarendt)
 
+more to be added
+
 ### Contributors
 
 <a href="https://github.com/ICESAT-2HackWeek/icesat2-cookbook/graphs/contributors">
@@ -47,6 +49,7 @@ and "Example Workflows."
 * Integration
 * Cloud Computing
 * Machine Learning
+* Visualization
 
 ### Section 2: Example Workflows for Specific Disciplines
 
