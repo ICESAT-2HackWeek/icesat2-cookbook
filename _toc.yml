@@ -13,6 +13,7 @@ parts:
       - file: notebooks/data-integration
       - file: notebooks/cloud-computing
       - file: notebooks/machine-learning
+      - file: notebooks/visualization
   - caption: Example Workflows
     chapters:
       - file: notebooks/land-ice
