@@ -4,6 +4,19 @@ parts:
   - caption: Preamble
     chapters:
       - file: notebooks/how-to-cite
-  - caption: Introduction
+  - caption: Foundations
     chapters:
-      - file: notebooks/notebook-template
+      - file: notebooks/mission-overview
+      - file: notebooks/data-access
+      - file: notebooks/filtering
+      - file: notebooks/geospatial-transforms
+      - file: notebooks/data-integration
+      - file: notebooks/cloud-computing
+      - file: notebooks/machine-learning
+  - caption: Example Workflows
+    chapters:
+      - file: notebooks/land-ice
+      - file: notebooks/sea-ice
+      - file: notebooks/inland-hydrology
+      - file: notebooks/bathymetry
+      - file: notebooks/snowdepth
