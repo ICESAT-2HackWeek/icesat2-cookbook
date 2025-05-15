@@ -5,7 +5,7 @@ alt="thumbnail" width="300"/>
 
 [![nightly-build](https://github.com/ICESAT-2HackWeek/icesat2-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ICESAT-2HackWeek/icesat2-cookbook/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ICESAT-2HackWeek/icesat2-cookbook/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/962073412.svg)](https://zenodo.org/badge/latestdoi/962073412)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10519966.svg)](https://doi.org/10.5281/zenodo.10519966)
 
 This Project Pythia Cookbook is a compilation of tutorials developed from 2019 
 to present as part of the NASA / UW eScience hackweek program. The purpose of
